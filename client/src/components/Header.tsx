@@ -15,7 +15,7 @@ const Title = styled.h1`
   font-weight: bold;
 `;
 
-const Header: React.FC = () => {
+const HeaderComponent = () => {
   return (
     <HeaderContainer>
       <Title>HighLander Game</Title>
@@ -23,4 +23,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default HeaderComponent;
